@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FLAnimation"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "An easy way to shake or scale the view with animation."
 
   # This description is used to generate tags and improve search results.
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform :ios, '7.0' 
+  # s.platform :ios, ‘9.0’ 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/atony2099/FLAnimation.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/atony2099/FLAnimation.git", :tag => "0.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,5 +129,5 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "pop"
+   s.dependency "pop", "~> 1.0.5"
 end
