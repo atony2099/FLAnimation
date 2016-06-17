@@ -9,7 +9,7 @@
 #import "UIView+FlAnimation.h"
 
 #import "UIView+FlAnimation.h"
-#import <POP.h>
+#import "POP.h"
 #import <objc/runtime.h>
 
 typedef NS_OPTIONS(NSUInteger, ChageType){
