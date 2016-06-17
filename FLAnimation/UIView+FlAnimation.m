@@ -6,13 +6,13 @@
 //  Copyright © 2016年 fenglin. All rights reserved.
 //
 
-#import "UIView+FlAnimation.h"
 
 #import "UIView+FlAnimation.h"
+#import "pop/POP.h"
 #import <objc/runtime.h>
 
 typedef NS_OPTIONS(NSUInteger, ChageType){
-
+    
     ChageTypeHorizontal = 0,
     ChageTypeVertical,
     ChageTypeExpand,
@@ -135,7 +135,7 @@ typedef void (^CompletionBlock)();
     animation.duration = self.duration ;
     CGFloat currentTx = self.transform.tx;
     animation.values = @[@(currentTx),@(currentTx+12),@(currentTx-12),@(currentTx+9),@(currentTx-9),@(currentTx+6),@(currentTx-6),@(currentTx)];
-//    animation.timingFunction =  [CAMediaTimingFunction functionWithControlPoints: 0.130000 : 0.056667 : 0.053333 : 0.996667];
+    //    animation.timingFunction =  [CAMediaTimingFunction functionWithControlPoints: 0.130000 : 0.056667 : 0.053333 : 0.996667];
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
     [self.layer addAnimation:animation forKey:nil];

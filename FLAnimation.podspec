@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FLAnimation"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "An easy way to shake or scale the view with animation."
 
   # This description is used to generate tags and improve search results.
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/atony2099/FLAnimation.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/atony2099/FLAnimation.git", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
