@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <POP/POP.h>
 typedef void (^CompletionBlock)();
 @interface UIView (FlAnimation)
 
