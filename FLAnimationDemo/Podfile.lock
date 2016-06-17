@@ -1,0 +1,16 @@
+PODS:
+  - FLAnimation (0.0.5):
+    - pop
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - FLAnimation
+  - pop (~> 1.0)
+
+SPEC CHECKSUMS:
+  FLAnimation: 802e31c17b697b53bc7fdc90d4ea39940c5851b6
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: d76509c430f1e0ea7b04e7e09810c7a6874b710f
+
+COCOAPODS: 1.0.1

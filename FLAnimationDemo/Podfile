@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+
+target ‘FLAnimationDemo’ do
+pod 'pop’,"~> 1.0"
+pod 'FLAnimation'
+
+
+end
